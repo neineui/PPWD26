@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MAV Platform</title>
+
+    <!-- Menghubungkan file CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="kotak">
+      <!-- Kembali ke halaman portofolio utama -->
+      <a href="../index.html">&larr; Kembali ke portofolio</a>
+
+      <h1>MAV Platform</h1>
+
+      <!-- Memilih peran pengguna -->
+      <label>
+        Masuk sebagai:
+        <select id="peran">
+          <option value="admin">Admin</option>
+          <option value="staf">Staf</option>
+          <option value="tamu">Tamu</option>
+        </select>
+      </label>
+
+      <!-- Daftar menu berdasarkan peran -->
+      <ul id="menu"></ul>
+    </div>
+
+    <!-- Menghubungkan file JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
